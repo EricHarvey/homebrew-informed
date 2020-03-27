@@ -5,7 +5,7 @@ class Infrmdcr < Formula
   homepage 'https://github.com/EricHarvey/homebrew-informed'
   url 'https://github.com/Informed/infrmdcr/releases/download/0.1.0/v0.1.0.zip', :using => CustomGitHubPrivateRepositoryReleaseDownloadStrategy
   version '0.1.0'
-  sha256 'cc72e330b53f684945f0ea1f9396266804aee1bb'
+  sha256 '489be71685ff139837778d16f3e32598a5d4614170b3716346031005f9ad1f58'
   head 'https://github.com/EricHarvey/homebrew-informed.git'
 
   depends_on 'crystal-lang' => :build
