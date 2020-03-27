@@ -3,15 +3,14 @@ require_relative './lib/custom_download_strategy.rb'
 class Infrmdcr < Formula
   desc 'A general purpose utility for Informed internal use'
   homepage 'https://github.com/EricHarvey/homebrew-informed'
-  url 'https://github.com/Informed/infrmdcr/releases/download/0.1.1/v0.1.1.zip', :using => CustomGitHubPrivateRepositoryReleaseDownloadStrategy
-  version '0.1.0'
-  sha256 '4fdc83d8063ed38797a4cfeb65734c713ecc30228724338edc7fc84175eaf668'
+  url 'https://github.com/Informed/infrmdcr/releases/download/v0.1.2/v0.1.2.zip', :using => CustomGitHubPrivateRepositoryReleaseDownloadStrategy
+  version '0.1.2'
+  sha256 '6ce4b55cd02e510984ace6cf38ce36384b7eeed40c6cd9f9513f61d3da56c261'
   head 'https://github.com/EricHarvey/homebrew-informed.git'
 
   depends_on 'crystal-lang' => :build
 
   def install
-    `./build.sh`
-    bin.install './infrmdcr'
+    system 'make', 'install'
   end
 end
