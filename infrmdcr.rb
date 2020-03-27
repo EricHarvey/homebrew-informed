@@ -9,7 +9,7 @@ class Infrmdcr < Formula
   head 'https://github.com/EricHarvey/homebrew-informed.git'
 
   depends_on {
-    'openssl' => :build
+    'openssl' => :build,
     'crystal-lang' => :build
   }
 
