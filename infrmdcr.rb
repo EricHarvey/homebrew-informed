@@ -8,7 +8,10 @@ class Infrmdcr < Formula
   sha256 '6ce4b55cd02e510984ace6cf38ce36384b7eeed40c6cd9f9513f61d3da56c261'
   head 'https://github.com/EricHarvey/homebrew-informed.git'
 
-  depends_on 'crystal-lang' => :build
+  depends_on {
+    'openssl' => :build
+    'crystal-lang' => :build
+  }
 
   def install
     system 'make', 'install'
