@@ -3,7 +3,7 @@ class Infrmdcr < Formula
   homepage 'https://github.com/veelenga/ameba'
   url 'https://github.com/EricHarvey/homebrew-informed/archive/v0.11.0.tar.gz'
   version '0.1.0'
-  sha256 'b402f56a74b7e4cc951be0d5da3ac466e366a1d8b4f3adfe852884375173fa68'
+  sha256 'cc72e330b53f684945f0ea1f9396266804aee1bb'
   head 'https://github.com/veelenga/ameba.git'
 
   depends_on 'crystal-lang' => :build
