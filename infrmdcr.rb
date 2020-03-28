@@ -19,6 +19,7 @@ class Infrmdcr < Formula
   depends_on 'crystal-lang' => :build
 
   def install
-    system 'make', 'install'
+    system 'make', 'build'
+    bin.install 'infrmdcr'
   end
 end
