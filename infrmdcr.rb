@@ -20,6 +20,6 @@ class Infrmdcr < Formula
 
   def install
     system 'make', 'build'
-    bin.install 'infrmdcr'
+    bin.install 'bin/infrmdcr'
   end
 end
