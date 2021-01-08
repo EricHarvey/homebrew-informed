@@ -4,8 +4,8 @@ class Infrmdcr < Formula
   desc 'A general purpose utility for Informed internal use'
   homepage 'https://github.com/EricHarvey/homebrew-informed'
   url 'https://github.com/Informed/infrmdcr/releases/download/v0.2.2/v0.2.2.zip', :using => CustomGitHubPrivateRepositoryReleaseDownloadStrategy
-  version '0.2.2'
-  sha256 'c064e47b6bf9d0ba14b319506ec051df02bfed7a75a41e28c725aaabf7f9acef'
+  version '0.2.3'
+  sha256 'd78b943064207e6b96b022b2518b9abef32d493686b5485f87b7fdbe15549812'
   head 'https://github.com/EricHarvey/homebrew-informed.git'
 
   depends_on 'bdw-gc'
