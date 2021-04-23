@@ -3,9 +3,9 @@ require_relative './lib/custom_download_strategy.rb'
 class Infrmdcr < Formula
   desc 'A general purpose utility for Informed internal use'
   homepage 'https://github.com/EricHarvey/homebrew-informed'
-  url 'https://github.com/Informed/infrmdcr/releases/download/v0.2.4/v0.2.4.zip', :using => CustomGitHubPrivateRepositoryReleaseDownloadStrategy
-  version '0.2.4.patch'
-  sha256 '22677b174360124b3818fe4cca38a0f95eb9d892c8cd07f7aed5e70473dda82f'
+  url 'https://github.com/Informed/infrmdcr/releases/download/v0.2.5/v0.2.5.zip', :using => CustomGitHubPrivateRepositoryReleaseDownloadStrategy
+  version '0.2.5'
+  sha256 'cea64dbee622ffa92523f2945af7f268230508058a9e42a406eba76084f23182'
   head 'https://github.com/EricHarvey/homebrew-informed.git'
 
   depends_on 'bdw-gc'
